@@ -1,0 +1,47 @@
+.datesearch{
+  position: absolute;
+  top: 35px;
+  left: 32%;
+  width: 100vw;
+}
+
+.datesearch > h2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 559px;
+  padding: 10px;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  top: 380px;
+}
+
+.datesearch > input {
+  width: 539px;
+  padding: 20px;
+  position: absolute;
+  left: 0;
+  height: 30px;
+  top: 420px;
+  border: none;
+}
+
+.datesearch > input:focus {
+  outline-width: 0;
+}
+
+.datesearch > button {
+  position: absolute;
+  left: 0;
+  top: 480px;
+  text-transform: inherit !important;
+  background-color: #5703a1;
+  color: white;
+  width: 579px;
+}
+
+.datesearch > button:hover {
+  background-color: white;
+  color: #5703a1;
+}

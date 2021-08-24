@@ -1,0 +1,44 @@
+.banner{
+  background: url('http://www.wiu.edu/academics/majors/business_and_technology/images/banner-civil-engineering.jpg')center center;
+  height: 50vh;
+  position: relative;  
+}
+
+.banner-search{
+  display: flex;
+  flex-direction: column;
+}
+
+.banner-search-button {
+  background-color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+color: #5703a1 !important;
+}
+
+.banner-info{
+  background-color: #5703a1;
+  color: white;
+  padding-top: 5vh;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 40px;
+  width: 300px;
+}
+
+.banner-info > button{
+  background-color: #0597e6;
+  color: white;
+  text-transform: inherit;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.banner-info > button:hover{
+  background-color: white;
+  color: #0597e6;
+}
+
+.banner-info > h5{
+  margin-top: 10px;
+}
